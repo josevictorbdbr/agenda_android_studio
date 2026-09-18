@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minha Agenda"
+        android:textSize="28sp" />
+    <Button
+        android:id="@+id/btnNovoEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOVO EVENTO"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/btnSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOBRE" />
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLTAR" />
+</LinearLayout>
